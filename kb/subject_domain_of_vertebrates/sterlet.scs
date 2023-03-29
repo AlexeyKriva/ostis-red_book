@@ -1,0 +1,47 @@
+
+concept_sterlet <- sc_node_class;;
+
+
+concept_sterlet
+=> nrel_main_idtf: 
+	[стерлядь]
+	(*<- lang_ru;;*);
+	[sterlet]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Стерлядь]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Стерлядь — важная промысловая рыба, которая относится к престижному семейству осетровых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Стерлядь]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [У стерляди узкая голова, а также длинный и острый нос.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

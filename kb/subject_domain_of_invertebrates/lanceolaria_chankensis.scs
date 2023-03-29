@@ -1,0 +1,45 @@
+
+concept_lanceolaria_chankensis <- sc_node_class;;
+
+
+concept_lanceolaria_chankensis
+=> nrel_main_idtf: 
+	[ханкайская ланцеолярия]
+	(*<- lang_ru;;*);
+	[lanceolaria_chankensis]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. ханкайская ланцеолярия]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Моллюск с очень вытянутой раковиной. Передние мускульные отпечатки округлые, сравнительно глубокие, разделенные; задние вытянутые, неглубокие.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. ханкайская ланцеолярия]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Для моллюсков губительно временное пересыхание и промерзание грунта.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

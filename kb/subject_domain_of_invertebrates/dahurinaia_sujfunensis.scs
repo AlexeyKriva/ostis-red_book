@@ -1,0 +1,48 @@
+
+concept_dahurinaia_sujfunensis <- sc_node_class;;
+
+
+concept_dahurinaia_sujfunensis
+=> nrel_main_idtf:
+	[приморская жемчужница]
+	(*<- lang_ru;;*);
+	[dahurinaia_sujfunensis]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. приморская жемчужница]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Крупный двустворчатый моллюск. Раковина у макушки, как правило, сильно разъедена и перистракум полностью разрушен. Брюшной край створки слегка вогнут.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. приморская жемчужница]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Вопреки распространенному мнению, жемчужины у данного вида встречаются крайне редко.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+

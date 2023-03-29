@@ -1,0 +1,46 @@
+
+concept_solen_krusensterni <- sc_node_class;;
+
+
+concept_solen_krusensterni
+=> nrel_main_idtf:
+	[черенок крузенштерна]
+	(*<- lang_ru;;*);
+	[solen_krusensterni]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. черенок крузенштерна]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Моллюск с тонкой среднего размера черенкообразной раковиной. Тонкий блестящий оливково-коричневый периостракум.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. черенок крузенштерна]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [В акватории России встречается в Японском и Охотском морях.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+

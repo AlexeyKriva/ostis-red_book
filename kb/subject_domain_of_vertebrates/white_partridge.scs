@@ -1,0 +1,48 @@
+
+concept_white_partridge <- sc_node_class;;
+
+
+concept_white_partridge
+=> nrel_main_idtf: 
+	[белая куропатка]
+	(*<- lang_ru;;*);
+	[white_partridge]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Белая куропатка]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Бе́лая куропа́тка— птица из трибы тетеревиных семейства фазановых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Белая куропатка]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Среди остальных курообразных белая куропатка выделяется ярко выраженным сезонным диморфизмом: её окраска различна в зависимости от времени года.
+
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

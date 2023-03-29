@@ -1,0 +1,68 @@
+sc_statement <- sc_node_class;;
+sc_explanation <- sc_node_class;;
+..node <- sc_node_class;;
+concept_large_floatable_spider <- sc_node_class;;
+
+concept_large_floatable_spider 
+=> nrel_main_idtf: 
+	[паук большой сплавной]
+	(*<- lang_ru;;*);
+	[large_floatable_spider]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Паук большой сплавной]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Большой сплавной паук – крупный паук оливково-бурой или темно-коричневой окраски с парными рядами белых точек на овальном, слегка вытянутом брюшке
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Паук большой сплавной]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Амфибионтный вид, тесно связанный с водной средой, обитает на берегах различных водоемов, чаще мелких и болотистых, со стоячей водой или с небольшим течением.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Паук большой сплавной]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Категория национальной природоохранной значимости - 3.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

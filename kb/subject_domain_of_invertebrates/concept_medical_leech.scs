@@ -1,0 +1,68 @@
+sc_statement <- sc_node_class;;
+sc_explanation <- sc_node_class;;
+..node <- sc_node_class;;
+concept_medical_leech <- sc_node_class;;
+
+concept_medical_leech 
+=> nrel_main_idtf: 
+	[медицинская пиявка]
+	(*<- lang_ru;;*);
+	[medical_leech]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Медицинская пиявка]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Медициинская пиявка — вид кольчатых червей из подкласса пиявок, наиболее часто применяемый с медицинскими целями
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Медицинская пиявка]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Питается кровью человека и животных, используется для лечения болезней: повышенное кровяное давление, стенокардия, варикоз и т.д.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Медицинская пиявка]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Категория национальной природоохранной значимости - 3.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

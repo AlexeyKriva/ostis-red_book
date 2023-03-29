@@ -1,0 +1,47 @@
+
+concept_atlantic_salmon <- sc_node_class;;
+
+
+concept_atlantic_salmon
+=> nrel_main_idtf: 
+	[атлантический лосось]
+	(*<- lang_ru;;*);
+	[atlantic_salmon]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Атлантический лосось]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Атлантический лосось - это средней или крупной величины лососёвая рыба, естественный ареал которой расположен на севере Атлантического океана.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Атлантический лосось]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Вид представлен в основном проходными стадами, но есть и жилые (озёрные) популяции.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

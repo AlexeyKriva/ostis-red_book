@@ -1,0 +1,47 @@
+
+concept_arsenievinaia_sihotealinica <- sc_node_class;;
+
+
+concept_arsenievinaia_sihotealinica
+=> nrel_main_idtf:
+	[сихотэалиньская арсеньевиная]
+	(*<- lang_ru;;*);
+	[arsenievinaia_sihotealinica]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. сихотэалиньская арсеньевиная]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Моллюск с удлиненно-овальной тонкостенной раковиной. Периостракум желто-коричневый.]				
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. сихотэалиньская арсеньевиная]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Способны переносить временное осолонение воды.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+

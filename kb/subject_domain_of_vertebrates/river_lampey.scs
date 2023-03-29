@@ -1,0 +1,48 @@
+
+concept_river_lampey <- sc_node_class;;
+
+
+concept_river_lampey
+=> nrel_main_idtf: 
+	[речная минога]
+	(*<- lang_ru;;*);
+	[river_lampey]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Речная минога]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Речная минога - это речное рыбообразное животное с удлинённым голым телом, обильно покрытым слизью.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Речная минога]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Обладает многочисленными роговыми зубами в круглой ротовой воронке.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+    

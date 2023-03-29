@@ -1,0 +1,45 @@
+
+concept_buldowskia_cylindrica <- sc_node_class;;
+
+
+concept_buldowskia_cylindrica
+=> nrel_main_idtf:
+	[цилиндрическая булдовския]
+	(*<- lang_ru;;*);
+	[buldowskia_cylindrica]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. цилиндрическая булдовския]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Моллюск с удлиненно-четырехугольной,  сильно вздутой, средних размеров раковиной. Периостракум темно-коричневый.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. цилиндрическая булдовския]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Продолжительность жизни около 10 лет.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

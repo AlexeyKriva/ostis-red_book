@@ -1,0 +1,47 @@
+
+concept_trout <- sc_node_class;;
+
+
+concept_trout
+=> nrel_main_idtf: 
+	[кумжа]
+	(*<- lang_ru;;*);
+	[trout]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Кумжа]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Кумжа - проходная, озёрная или ручьевая рыба из семейства лососёвых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Кумжа]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Очень изменчивый и приспособленный к жизни в разнообразных водоёмах вид среднего или крупного размера.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

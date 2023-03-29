@@ -1,0 +1,68 @@
+sc_statement <- sc_node_class;;
+sc_explanation <- sc_node_class;;
+..node <- sc_node_class;;
+concept_rocker_green <- sc_node_class;;
+
+concept_rocker_green 
+=> nrel_main_idtf: 
+	[коромысло зелёное]
+	(*<- lang_ru;;*);
+	[rocker_green]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Коромысло зелёное]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Коромысло зелёное — вид стрекоз семейства коромысловых
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Коромысло зелёное]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Вид обитает в водоемах с илистым дном, большим зеркалом воды, зарослями телореза, камышом, рогозом и древесно-кустарниковой растительностью по берегам при низкой численности других видов коромысел.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Коромысло зелёное]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Категория национальной природоохранной значимости - 3.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

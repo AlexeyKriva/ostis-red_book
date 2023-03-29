@@ -1,0 +1,47 @@
+
+concept_european_grayling <- sc_node_class;;
+
+
+concept_european_grayling
+=> nrel_main_idtf: 
+	[европейский хариус]
+	(*<- lang_ru;;*);
+	[european_grayling]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Европейский хариус]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Европейский хариус - вид пресноводных рыб подсемейства хариусовых семейства лососёвых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Европейский хариус]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Окраска яркая (особенно в период размножения): спина серо-зеленая с мелкими темными пятнами; бока светло-серые с бурыми продольными полосами.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

@@ -1,0 +1,47 @@
+
+concept_golden_eagle <- sc_node_class;;
+
+
+concept_golden_eagle
+=> nrel_main_idtf: 
+	[беркут]
+	(*<- lang_ru;;*);
+	[golden_eagle]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Беркут]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Бе́ркут— одна из наиболее известных хищных птиц семейства ястребиных, самый крупный орёл. 
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Беркут]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [В настоящее время беркут, как и большинство других европейских пернатых хищников, находится под охраной государственных законодательств и межправительственных соглашений. 
+		]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

@@ -1,0 +1,47 @@
+
+concept_peregrine_falcon <- sc_node_class;;
+
+
+concept_peregrine_falcon
+=> nrel_main_idtf: 
+	[сапсан]
+	(*<- lang_ru;;*);
+	[peregrine_falcon]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Сапсан]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Сапса́н — хищная птица из семейства соколиных, распространённая на всех континентах.
+		]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Сапсан]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Сапсан является как самой быстрой птицей, так и самым быстрым представителем царства животных вообще
+		]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

@@ -1,0 +1,47 @@
+
+concept_avdotka <- sc_node_class;;
+
+
+concept_avdotka
+=> nrel_main_idtf: 
+	[авдотка]
+	(*<- lang_ru;;*);
+	[avdotka]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Авдотка]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Авдо́тка — птица из семейства авдотковых. 
+		]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Авдотка]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Авдотка- птица активная ночью, хорошо бегает и летает.
+		]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
