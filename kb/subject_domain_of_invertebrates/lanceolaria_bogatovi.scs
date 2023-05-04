@@ -1,0 +1,43 @@
+concept_lanceolaria_bogatovi <- sc_node_class;;
+
+concept_lanceolaria_bogatovi
+=> nrel_main_idtf:
+	[Ланцеолярия Богатова]
+	(*<- lang_ru;;*);
+	[lanceolaria_bogatovi]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Ланцеолярия Богатова]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Раковина очень вытянутая, ножевидной формы, умеренно вздутая, толстостенная. Длина раковины может достигать более 14 см. Самая задняя точка раковины расположена примерно против середины ее высоты, а наиболее выступающая точка боковой поверхности створки лежит примерно на уровне границы верхней трети высоты раковины.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Ланцеолярия Богатова]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Наблюдается тенденция к снижению численности вида.]				
+			(*
+				<- lang_ru;;
+			*);;
+		*);;
+	*);;

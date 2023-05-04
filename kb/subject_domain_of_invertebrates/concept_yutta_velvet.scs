@@ -1,0 +1,65 @@
+sc_statement <- sc_node_class;;
+sc_explanation <- sc_node_class;;
+..node <- sc_node_class;;
+concept_amphipod_pallas <- sc_node_class;;
+
+concept_amphipod_pallas 
+=> nrel_main_idtf: 
+	[бархатница ютта]
+	(*<- lang_ru;;*);
+	[yutta_velvet]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Бархатница ютта]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Бархатница ютта - дневная бабочка семейства Бархатницы]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Бархатница ютта]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [В Прибалтике, Польше, Белоруссии, Украине и Центральной России вид является стенотопным обитателем верховых пушице-сфагновых болот]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Бархатница ютта]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Категория национальной природоохранной значимости - 4]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

@@ -1,0 +1,67 @@
+sc_statement <- sc_node_class;;
+sc_explanation <- sc_node_class;;
+..node <- sc_node_class;;
+concept_amphipod_pallas <- sc_node_class;;
+
+concept_amphipod_pallas 
+=> nrel_main_idtf: 
+	[мечник короткокрылый]
+	(*<- lang_ru;;*);
+	[conocephalus_dorsalis]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Мечник короткокрылый]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Мечник короткокрылый - небольшой, стройный, с очень длинными усиками, зеленый кузнечик
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Мечник короткокрылый]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Данный вид живет в траве, на кустарниках, деревьях в прибрежных биоценозах, предпочитает сырые места]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Мечник короткокрылый]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Категория национальной природоохранной значимости - 4
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

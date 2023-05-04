@@ -1,0 +1,46 @@
+concept_carabus_gebleri <- sc_node_class;;
+
+concept_carabus_gebleri
+=> nrel_main_idtf:
+	[Жужелица Геблера]
+	(*<- lang_ru;;*);
+	[carabus_gebleri]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Жужелица Геблера]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Это насекомое, которое относится к отряду жесткокрылых и семейству жужелиц. Вид занесён в Красную книгу РФ как исчезающий вид.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Жужелица Геблера]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Жужелица Геблера обитает в Альтайских горах.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+

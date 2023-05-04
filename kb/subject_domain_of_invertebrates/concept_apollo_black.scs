@@ -1,0 +1,65 @@
+sc_statement <- sc_node_class;;
+sc_explanation <- sc_node_class;;
+..node <- sc_node_class;;
+concept_amphipod_pallas <- sc_node_class;;
+
+concept_amphipod_pallas 
+=> nrel_main_idtf: 
+	[аполлон черный]
+	(*<- lang_ru;;*);
+	[apollo_black]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Аполлон черный]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Аполлон черный - красивая дневная бабочка средних размеров семейства Парусники]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Аполлон черный]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Данный вид обитает на опушках и полянах в смешанных лесах, долинах рек и ручьев]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Аполлон черный]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Категория национальной природоохранной значимости - 3]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

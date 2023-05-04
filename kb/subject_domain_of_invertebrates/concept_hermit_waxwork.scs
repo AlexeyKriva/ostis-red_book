@@ -1,0 +1,65 @@
+sc_statement <- sc_node_class;;
+sc_explanation <- sc_node_class;;
+..node <- sc_node_class;;
+concept_amphipod_pallas <- sc_node_class;;
+
+concept_amphipod_pallas 
+=> nrel_main_idtf: 
+	[восковик-отшельник]
+	(*<- lang_ru;;*);
+	[hermit_waxwork]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Восковик-отшельник]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Восковик-отшельник - жук широкоовальной формы, уплощенный сверху]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Восковик-отшельник]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Данный вид обитает в старых широколиственных лесах и парках]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Восковик-отшельник]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Категория национальной природоохранной значимости - 3]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

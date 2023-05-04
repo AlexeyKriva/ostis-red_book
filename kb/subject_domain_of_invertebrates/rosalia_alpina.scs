@@ -1,0 +1,43 @@
+concept_rosalia_alpina <- sc_node_class;;
+
+concept_rosalia_alpina
+=> nrel_main_idtf:
+	[Усач Альпийский]
+	(*<- lang_ru;;*);
+	[rosalia_alpina]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Усач Альпийский]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Альпийский усач представлен единственным реликтовым видом в роде Rosalia. Усач обладает броской внешностью. Длина его тела составляет от 15 до 38 мм. Оно покрыто короткими волосками. Окраска серая или синевато-серая. На серо-голубых плоских надкрыльях есть три черных пятна с белой каймой.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Усач Альпийский]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [В очень сухой древесине насекомое развивается 4 года.]				
+			(*
+				<- lang_ru;;
+			*);;
+		*);;
+	*);;

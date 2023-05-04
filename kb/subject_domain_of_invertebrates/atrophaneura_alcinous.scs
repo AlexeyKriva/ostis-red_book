@@ -1,0 +1,43 @@
+concept_atrophaneura_alcinous <- sc_node_class;;
+
+concept_atrophaneura_alcinous
+=> nrel_main_idtf:
+	[Алкиной]
+	(*<- lang_ru;;*);
+	[atrophaneura_alcinous]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Алкиной]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [вид дневных бабочек, которые относятся к семейству парусников. Считается одним из самых красивых насекомых, которых можно встретить на территории Российской Федерации. Также может быть известна под названием альциной, которое хоть и является менее научным, но всё-таки имеет место быть.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Алкиной]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Русское и латинское название вида созвучно с персонажем мифологии Древней Греции, внуком Посейдона и царём мореходов, Алкиноя.]				
+			(*
+				<- lang_ru;;
+			*);;
+		*);;
+	*);;

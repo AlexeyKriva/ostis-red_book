@@ -1,0 +1,43 @@
+concept_dahurinaia_dahurica <- sc_node_class;;
+
+concept_dahurinaia_dahurica
+=> nrel_main_idtf:
+	[Даурская Жемчужница]
+	(*<- lang_ru;;*);
+	[dahurinaia_dahurica]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Даурская Жемчужница]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Крупный двустворчатый моллюск. Длина раковины 105-177 мм, высота 32-69 мм, выпуклость 25-40 мм. Снаружи раковина темно-коричневая, почти черная, удлиненно-овальная, несколько уплощенная, иногда сильно корродированная. Макушки слабо выступающие.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Даурская Жемчужница]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Оплодотворение и вынашивание глохидиев в жабрах моллюсков в июле-августе.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

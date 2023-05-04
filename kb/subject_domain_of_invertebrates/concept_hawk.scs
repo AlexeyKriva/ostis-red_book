@@ -1,0 +1,65 @@
+sc_statement <- sc_node_class;;
+sc_explanation <- sc_node_class;;
+..node <- sc_node_class;;
+concept_amphipod_pallas <- sc_node_class;;
+
+concept_amphipod_pallas 
+=> nrel_main_idtf: 
+	[бражник прозерпина]
+	(*<- lang_ru;;*);
+	[hawk]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Бражник прозерпина]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Бражник прозерпина - бабочка из семейства бражников]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Бражник прозерпина]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Данный вид обитает на лесных полянах и в других солнечных местах, часто около воды]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Бражник прозерпина]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Категория национальной природоохранной значимости - 2]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

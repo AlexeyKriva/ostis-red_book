@@ -1,0 +1,43 @@
+concept_callipogon_relictus <- sc_node_class;;
+
+concept_callipogon_relictus
+=> nrel_main_idtf:
+	[Дровосек Реликтовый]
+	(*<- lang_ru;;*);
+	[callipogon_relictus]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Дровосек Реликтовый]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Дровосек реликтовый представляется собой отряд жесткокрылых. Насекомое больших размеров с длинными усами получило такое название из-за того, что обитает в деревьях. Данный представитель имеет еще два названия – уссурийский дровосек или усач.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Дровосек Реликтовый]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Уссурийский жук располагается на территории Азии, России и Европы.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

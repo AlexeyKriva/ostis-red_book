@@ -1,0 +1,43 @@
+concept_hamearis_lucina <- sc_node_class;;
+
+concept_hamearis_lucina
+=> nrel_main_idtf:
+	[Люцина]
+	(*<- lang_ru;;*);
+	[hamearis_lucina]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Люцина]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [это вид дневных бабочек, который относится к отряду чешуекрылых. В народе более известна под названием пеструшка лесная, но всё-таки более научно корректным является латинское наименование.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Люцина]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Практически на всей территории Европы, кроме самых западных её частей, наблюдается массовое снижение популяции люцины]				
+			(*
+				<- lang_ru;;
+			*);;
+		*);;
+	*);;

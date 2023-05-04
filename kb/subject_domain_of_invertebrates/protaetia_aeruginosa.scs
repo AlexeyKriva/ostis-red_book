@@ -1,0 +1,43 @@
+concept_protaetia_aeruginosa <- sc_node_class;;
+
+concept_protaetia_aeruginosa
+=> nrel_main_idtf:
+	[Бронзовка Гладкая]
+	(*<- lang_ru;;*);
+	[protaetia_aeruginosa]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Бронзовка Гладкая]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Один из самых габаритных представителей жуков с размером тела до 3 сантиметров длиной.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Бронзовка Гладкая]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Некоторые популяции находятся на юге Азии.]				
+			(*
+				<- lang_ru;;
+			*);;
+		*);;
+	*);;

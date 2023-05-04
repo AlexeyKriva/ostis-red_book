@@ -1,0 +1,43 @@
+concept_bombus_anachoreta <- sc_node_class;;
+
+concept_bombus_anachoreta
+=> nrel_main_idtf:
+	[Шмель-Отшельник]
+	(*<- lang_ru;;*);
+	[bombus_anachoreta]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Шмель-Отшельник]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Длина тела самки 15-18 мм, самца 12-14 мм. Голова, грудь и брюшко в основном в темно-желтых волосках, на спинке широкая перевязь между основаниями крыльев из черных волосков, спереди неясно отграниченных от серых волосков переднеспинки; основания тергитов брюшка коричневатых волосках.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Шмель-Отшельник]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Взрослые шмели собирают нектар и пыльцу на многих видах цветущих растений]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

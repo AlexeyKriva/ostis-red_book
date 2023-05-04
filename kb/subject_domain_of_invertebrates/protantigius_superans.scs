@@ -1,0 +1,46 @@
+concept_protantigius_superans <- sc_node_class;;
+
+concept_protantigius_superans
+=> nrel_main_idtf:
+	[Зефир Превосходный]
+	(*<- lang_ru;;*);
+	[protantigius_superans]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Зефир Превосходный]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Бабочка, которая принадлежит к роду Protantigius и семейству Lycaenidae. Данное насекомое имеет второе название – Голубянка Пугачука и именно с таким именем было занесено в Красную книгу насекомых.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Зефир Превосходный]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Обычно особи не спускаются с крон деревьев, обитают примерно на 10-20 м над землёй.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+

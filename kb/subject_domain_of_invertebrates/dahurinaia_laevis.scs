@@ -1,0 +1,43 @@
+concept_dahurinaia_laevis <- sc_node_class;;
+
+concept_dahurinaia_laevis
+=> nrel_main_idtf:
+	[Гладкая Жемчужница]
+	(*<- lang_ru;;*);
+	[dahurinaia_laevis]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Гладкая Жемчужница]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Крупный двустворчатый моллюск. Длина раковины до 136 мм. Раковина снаружи темно-коричневая или черная, удлиненно-овальная, умеренно вздутая. Макушки слабо выступающие. Раковина у макушки, как правило, сильно разъедена и перистракум полностью разрушен.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Гладкая Жемчужница]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Оплодотворение, выход яиц и заражение ими жабр моллюсков наблюдается в июле-августе.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

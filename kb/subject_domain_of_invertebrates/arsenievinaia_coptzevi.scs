@@ -1,0 +1,46 @@
+
+concept_arsenievinaia_coptzevi <- sc_node_class;;
+
+
+concept_arsenievinaia_coptzevi
+=> nrel_main_idtf:
+	[Арсеньевиная Копцева]
+	(*<- lang_ru;;*);
+	[arsenievinaia_coptzevi]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Арсеньевиная Копцева]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Раковина неправильно-овальная, выпуклая, тонкостенная, до 8 см длиной. Спинной край изогнутый, наклонен вперед. Задний край вытянутый, округлый, брюшной край слабо выгнутый. Самая задняя точка раковины лежит заметно ниже середины ее высоты.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Арсеньевиная Копцева]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Моллюски обитают в стоячих водоемах на заиленном или илистом грунте на глубине более 1.5 м.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+

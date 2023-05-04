@@ -1,0 +1,66 @@
+concept_flora <- sc_node_class;;
+
+concept_flora
+=> nrel_main_idtf: 
+	[Флора]
+	(*<- lang_ru;;*);
+	[flora]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Флора]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Флора - это растительный мир.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Флора]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Флора это исторически сложившаяся совокупность видов растений, распространённых на конкретной территории или на территории с определёнными условиями в настоящее время или в прошедшие геологические эпохи.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Флора]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Слово это было напрямую унаследовано от имени римской богини цветов и весеннего цветения Флоры
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+

@@ -1,0 +1,65 @@
+concept_class <- sc_node_class;;
+
+concept_class
+=> nrel_main_idtf: 
+	[Класс]
+	(*<- lang_ru;;*);
+	[Class]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Класс]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Класс - это одна из высших таксономических категорий в биологической систематике.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Класс]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Класс объединяет родственные отряды (животных) или порядки (растений).
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Класс]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Классы иногда разбивают на более мелкие единицы – подклассы.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

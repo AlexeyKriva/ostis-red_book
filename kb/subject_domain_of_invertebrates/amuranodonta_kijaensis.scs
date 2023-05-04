@@ -1,0 +1,43 @@
+concept_amuranodonta_kijaensis <- sc_node_class;;
+
+concept_amuranodonta_kijaensis
+=> nrel_main_idtf:
+	[Кийская Амуранодонта]
+	(*<- lang_ru;;*);
+	[amuranodonta_kijaensis]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Кийская Амуранодонта]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Раковина удлиненная, овально-четырехугольная, умеренно вздутая, тонкостенная. Максимальная длина створок может превышать 12 см. Спинной край перед макушками слегка наклонен вперед, за ними почти прямой, практически параллелен брюшному краю.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Кийская Амуранодонта]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Моллюски обитают в стоячих и слабо проточных водоемах на заиленном или илистом грунте.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

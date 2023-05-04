@@ -1,0 +1,48 @@
+concept_population <- sc_node_class;;
+
+concept_population
+=> nrel_main_idtf: 
+	[Популяция]
+	(*<- lang_ru;;*);
+	[Population]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Популяция]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Популяция - это совокупность особей одного вида, более или менее длительно занимающая определённое пространство и воспроизводящая себя в течение большого числа поколений.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Популяция]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Особи одной популяции имеют большую вероятность скрещиваться друг с другом, чем с особями других популяций.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+

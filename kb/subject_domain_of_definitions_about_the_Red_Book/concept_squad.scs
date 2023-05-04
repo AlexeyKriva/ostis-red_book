@@ -1,0 +1,46 @@
+concept_squad <- sc_node_class;;
+
+concept_squad
+=> nrel_main_idtf: 
+	[Отряд]
+	(*<- lang_ru;;*);
+	[Squad]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Отряд]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Отряд - это систематическая категория животных, промежуточная по рангу между семейством и классом.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Отряд]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [В отряды (иногда сначала в подотряд) объединяют родственные семейства.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

@@ -1,0 +1,43 @@
+concept_osmoderma_eremita <- sc_node_class;;
+
+concept_osmoderma_eremita
+=> nrel_main_idtf:
+	[Отшельник Обыкновенный]
+	(*<- lang_ru;;*);
+	[osmoderma_eremita]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Отшельник Обыкновенный]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Является представителем типа членистоногих, отряда жесткокрылых и семейства пластинчатоусых.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Отшельник Обыкновенный]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Продолжительность жизни отшельника варьируется от 3-х до 4-х лет.]				
+			(*
+				<- lang_ru;;
+			*);;
+		*);;
+	*);;

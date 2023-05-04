@@ -1,0 +1,46 @@
+concept_cristaria_tuberculata <- sc_node_class;;
+
+concept_cristaria_tuberculata
+=> nrel_main_idtf:
+	[Бугорчатая Кристария]
+	(*<- lang_ru;;*);
+	[cristaria_tuberculata]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Бугорчатая Кристария]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Раковина неправильно-ромбической формы, очень крупная, длиной до 30 см, выпуклая, в передней части толстостенная. Спинной край сильно наклонен вперед. В задней половине спинного края имеется очень высокий крыловидный гребень, который у старых особей может быть обломан.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Бугорчатая Кристария]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Селится в крупных озерах и речных затонах на песчаном и песчано-илистом грунте на глубине 0,5–6 м.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+

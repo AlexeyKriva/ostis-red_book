@@ -1,0 +1,46 @@
+concept_type <- sc_node_class;;
+
+concept_type
+=> nrel_main_idtf: 
+	[Тип]
+	(*<- lang_ru;;*);
+	[Type]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Тип]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Тип - это высшая таксономическая категория в систематике животных, объединяющая родственные классы.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Тип]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Все организмы одного типа характеризуются единым планом строения.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

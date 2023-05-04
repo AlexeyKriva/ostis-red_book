@@ -1,0 +1,46 @@
+concept_family <- sc_node_class;;
+
+concept_family
+=> nrel_main_idtf: 
+	[Семейство]
+	(*<- lang_ru;;*);
+	[Family]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Семейство]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Семейство - это один из основных рангов иерархической классификации в биологической систематике.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Семейство]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Названия семейств образуются по правилам, регулируемым международными кодексами зоологической и ботанической номенклатуры.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

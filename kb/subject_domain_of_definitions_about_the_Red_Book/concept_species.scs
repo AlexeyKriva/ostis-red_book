@@ -1,0 +1,46 @@
+concept_species <- sc_node_class;;
+
+concept_species
+=> nrel_main_idtf: 
+	[Вид]
+	(*<- lang_ru;;*);
+	[Species]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Вид]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Вид - это основная структурная единица в системе живых организмов, качественный этап их эволюции.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Вид]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Каждый вид обозначался названием рода и следовавшим за ним видовым названием.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

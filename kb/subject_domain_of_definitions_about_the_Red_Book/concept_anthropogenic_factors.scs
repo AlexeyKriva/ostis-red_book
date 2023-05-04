@@ -1,0 +1,163 @@
+concept_anthropogenic_factors <- sc_node_class;;
+concept_physical_anthropogenic_factors <- sc_node_class;;
+concept_chemical_anthropogenic_factors <- sc_node_class;;
+concept_biological_anthropogenic_factors <- sc_node_class;;
+concept_social_anthropogenic_factors <- sc_node_class;;
+
+
+concept_anthropogenic_factors
+=> nrel_main_idtf: 
+	[Антропогенные факторы]
+	(*<- lang_ru;;*);
+	[Anthropogenic factors]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Антропогенные факторы]
+	  			(*
+	    		<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Антропогенные факторы - совокупность факторов окружающей среды, обусловленных случайной или преднамеренной деятельностью человека за период его существования.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Антропогенные факторы]
+	  			(*
+	    		<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Антропогенные факторы разделяют на 4 вида: физические, химические, биологические и социальные.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<= nrel_subdividing:
+{
+	concept_physical_anthropogenic_factors;
+	concept_chemical_anthropogenic_factors;
+	concept_biological_anthropogenic_factors;
+	concept_social_anthropogenic_factors;
+};;
+
+concept_physical_anthropogenic_factors
+=> nrel_main_idtf: 
+	[Антропогенные физические факторы]
+	(*<- lang_ru;;*);
+	[Physical anthropogenic factors]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Антропогенные физические факторы]
+	  			(*
+	    		<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Антропогенные физические факторы - использование атомной энергии, перемещение в поездах и самолетах, влияние шума и вибрации и др..
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+concept_chemical_anthropogenic_factors
+=> nrel_main_idtf: 
+	[Химические антропогенные факторы]
+	(*<- lang_ru;;*);
+	[Chemical anthropogenic factors]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Химические антропогенные факторы]
+	  			(*
+	    		<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Химические антропогенные факторы - использование минеральных удобрений и ядохимикатов, загрязнение оболочек Земли отходами промышленности и транспорта; курение, употребление алкоголя и наркотиков, чрезмерное использование лекарственных средств.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+	
+concept_biological_anthropogenic_factors
+=> nrel_main_idtf: 
+	[Биологические антропогенные факторы]
+	(*<- lang_ru;;*);
+	[Biological anthropogenic factors]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Биологические антропогенные факторы]
+	  			(*
+	    		<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Биологические антропогенные факторы - продукты питания; организмы, для которых человек может быть средой обитания или источником питания (вирусы, бактерии, другие паразиты).
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+	
+concept_social_anthropogenic_factors
+=> nrel_main_idtf: 
+	[Социальные антропогенные факторы]
+	(*<- lang_ru;;*);
+	[Social anthropogenic factors]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Социальные антропогенные факторы]
+	  			(*
+	    		<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Социальные антропогенные факторы - связанные с отношениями людей и жизнью в обществе.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

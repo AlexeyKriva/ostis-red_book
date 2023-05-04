@@ -1,0 +1,43 @@
+concept_sinanodonta_crassitesta <- sc_node_class;;
+
+concept_sinanodonta_crassitesta
+=> nrel_main_idtf:
+	[Массивная Синанодонта]
+	(*<- lang_ru;;*);
+	[sinanodonta_crassitesta]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Массивная Синанодонта]
+	  			(*
+	    			<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Раковина массивная, неправильно-овальная, вздутая, умеренно толстостенная. Ее максимальная длина может достигать 13 см. Спинной край прямой, заметно наклонен вперед. Задняя часть спинного края приподнята в виде невысокого крыла.]				
+				(*
+					<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Массивная Синанодонта]
+	  			(*
+	    			<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Типовое местонахождение — р. Комаровка.]
+				(*
+					<- lang_ru;;
+				*);;
+		*);;
+	*);;

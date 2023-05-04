@@ -1,0 +1,43 @@
+concept_middendorffinaia_shadini <- sc_node_class;;
+
+concept_middendorffinaia_shadini
+=> nrel_main_idtf:
+	[Миддендорффиная Жадина]
+	(*<- lang_ru;;*);
+	[middendorffinaia_shadini]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Миддендорффиная Жадина]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Раковина овально-клиновидная, сильно выпуклая, толстостенная. Самая задняя точка раковины расположена заметно ниже середины ее высоты. Задний край раковины узкий, брюшной край в средней части может быть слегка вогнутым. Макушки возвышаются над спинным краем, сильно сдвинуты вперед.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Миддендорффиная Жадина]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Вид обитает на территории Уссурийского заповедника.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

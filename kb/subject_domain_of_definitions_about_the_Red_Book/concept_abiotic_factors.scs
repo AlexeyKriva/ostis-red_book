@@ -1,0 +1,46 @@
+concept_abiotic_factors <- sc_node_class;;
+
+concept_abiotic_factors
+=> nrel_main_idtf: 
+	[Абиотические факторы]
+	(*<- lang_ru;;*);
+	[Abiotic factors]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Абиотические факторы]
+	  			(*
+	    		<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Абиотические факторы - это компоненты и явления неживой, неорганической природы, прямо или косвенно воздействующие на живые организмы: климатические, почвенные и гидрографические факторы.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Абиотические факторы]
+	  			(*
+	    		<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Основными абиотическими факторами среды являются: температура, свет, вода, соленость, кислород, магнитное поле земли, почва.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

@@ -1,0 +1,43 @@
+concept_arsenievinaia_alimovi <- sc_node_class;;
+
+concept_arsenievinaia_alimovi
+=> nrel_main_idtf: 
+	[Арсеньевиная Алимова]
+	(*<- lang_ru;;*);
+	[arsenievinaia_alimovi]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Арсеньевиная Алимова]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Раковина овальная, умеренно вздутая, тонкостенная, до 8 см длиной. Спинной край прямой, незначительно наклонен вперед, через невысокое крыло переходит в угловатый задний край.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Арсеньевиная Алимова]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Способны переносить кратковременное осолонение водоемов.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

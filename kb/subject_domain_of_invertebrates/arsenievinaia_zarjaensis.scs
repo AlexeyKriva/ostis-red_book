@@ -1,0 +1,43 @@
+concept_arsenievinaia_zarjaensis <- sc_node_class;;
+
+concept_arsenievinaia_zarjaensis
+=> nrel_main_idtf:
+	[Зарейская Арсеньевиная]
+	(*<- lang_ru;;*);
+	[arsenievinaia_zarjaensis]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Зарейская Арсеньевиная]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Раковина удлиненно-овальная, вздутая, тонкостенная, до 10 см длиной. Спинной край наклонен вперед, немного изогнут, через невысокое крыло переходит в вытянутый и несколько угловатый задний край. Брюшной край слабо выгнутый, в средней части спрямленный.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Зарейская Арсеньевиная]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Охраняется в Лазовском гсударственном заповеднике]				
+			(*
+				<- lang_ru;;
+			*);;
+		*);;
+	*);;

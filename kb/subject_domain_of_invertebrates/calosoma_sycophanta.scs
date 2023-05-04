@@ -1,0 +1,43 @@
+concept_calosoma_sycophanta <- sc_node_class;;
+
+concept_calosoma_sycophanta
+=> nrel_main_idtf:
+	[Красотел Пахучий]
+	(*<- lang_ru;;*);
+	[calosoma_sycophanta]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Красотел Пахучий]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Насекомое, являющееся представителем жесткокрылых и семейства жужелиц.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Красотел Пахучий]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Длина туловища насекомого составляет 35 мм.]				
+			(*
+				<- lang_ru;;
+			*);;
+		*);;
+	*);;

@@ -1,0 +1,43 @@
+concept_middendorffinaia_sujfunensis <- sc_node_class;;
+
+concept_middendorffinaia_sujfunensis
+=> nrel_main_idtf:
+	[Раздольненская Миддендорффиная]
+	(*<- lang_ru;;*);
+	[middendorffinaia_sujfunensis]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Раздольненская Миддендорффиная]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Раковина удлиненно-овальная, сравнительно плоская, умеренной толщины. Самая задняя точка раковины расположена примерно против границы нижней четверти высоты створки. Задний край раковины расширенный, в верхней части несколько усеченный.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Раздольненская Миддендорффиная]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [В местах скопления моллюсков отмечается до 5-8 экз./м2.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

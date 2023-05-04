@@ -1,0 +1,43 @@
+concept_anemina_buldowskii <- sc_node_class;;
+
+concept_anemina_buldowskii
+=> nrel_main_idtf:
+	[Анемина Булдовского]
+	(*<- lang_ru;;*);
+	[anemina_buldowskii]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Анемина Булдовского]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Раковина овальная, сильно вздутая, тонкостенная. Максимальная длина не превышает 7 см. Спинной край прямой или слабо выгнутый, параллелен продольной оси створки. Задний край в виде расширенного клюва. Брюшной край закругленный.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Анемина Булдовского]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Oбитает в слабо проточных и стоячих водоемах на илистом грунте в бассейне реки Уссури и озера Ханка.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

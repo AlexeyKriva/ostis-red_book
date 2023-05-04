@@ -1,0 +1,43 @@
+concept_euidosomus_acuminatus <- sc_node_class;;
+
+concept_euidosomus_acuminatus
+=> nrel_main_idtf:
+	[Слоник Острокрылый]
+	(*<- lang_ru;;*);
+	[euidosomus_acuminatus]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Слоник Острокрылый]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [жук из семейства Долгоносики. Некоторые представители растительного и животного мира могут быть характерны для определенных мест обитания. Такие виды называют эндемиками.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Слоник Острокрылый]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Ему присвоена вторая категория, так как популяция слоника постепенно становится всё меньше.]				
+			(*
+				<- lang_ru;;
+			*);;
+		*);;
+	*);;

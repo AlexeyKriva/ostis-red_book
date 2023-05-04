@@ -1,0 +1,44 @@
+concept_alaus_parreyssi <- sc_node_class;;
+
+concept_alaus_parreyssi
+=> nrel_main_idtf:
+	[Щелкун Паррейса]
+	(*<- lang_ru;;*);
+	[alaus_parreyssi]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Щелкун Паррейса]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Жук длиной 24-37 мм. Тело удлинённое, сверху чёрного цвета, покрыто густыми белыми и чёрными чешуйками, образующими пёстрый рисунок. Преднеспинка белая, с двумя небольшими пятнами чёрного цвета. Надкрылья спереди по бокам — белые, с отдельными чёрными точками, сзади надкрылья — чёрные, с белыми точками.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Щелкун Паррейса]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Развивается в мертвой древесине сосны и сосновых пней]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+

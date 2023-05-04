@@ -1,0 +1,45 @@
+
+concept_middendorffinaia_ussuriensis <- sc_node_class;;
+
+
+concept_middendorffinaia_ussuriensis
+=> nrel_main_idtf:
+	[Уссурийская Миддендорффиная]
+	(*<- lang_ru;;*);
+	[middendorffinaia_ussuriensis]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Уссурийская Миддендорффиная]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Вид редкого моллюска. Он обитает в водоемах и развивается, паразитируя на лососях.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Уссурийская Миддендорффиная]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Средняя продолжительность жизни составляет от 50 до 80 лет.]				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+

@@ -1,0 +1,125 @@
+concept_range <- sc_node_class;;
+concept_continuous_range <- sc_node_class;;
+concept_discontinuous_range <- sc_node_class;;
+
+concept_range
+=> nrel_main_idtf: 
+	[Ареал]
+	(*<- lang_ru;;*);
+	[Range]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Ареал]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Ареал - это часть земной поверхности (или акватории), в пределах которой встречается тот или иной вид (род, семейство и т. д.) животных или растений.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Ареал]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Ареал первоначально представляет пространство, на котором происходит становление вида.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Ареал]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Ареал может уменьшаться вследствие вымирания вида на части заселенного им пространства. Он может стать прерывистым или сократиться до небольшого участка, что, как правило, предваряет полное вымирание вида.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+
+<= nrel_subdividing:
+{
+	concept_continuous_range;
+	concept_discontinuous_range;
+};;
+
+concept_continuous_range
+=> nrel_main_idtf: 
+	[Сплошной ареал]
+	(*<- lang_ru;;*);
+	[Continuous range]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Сплошной ареал]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Ареал называется сплошным, если на всём его протяжении вид встречается на соответствующих его жизненным требованиям местообитаниях.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+	
+concept_discontinuous_range
+=> nrel_main_idtf: 
+	[Прерывистый ареал]
+	(*<- lang_ru;;*);
+	[Discontinuous range]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Прерывистый ареал]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Ареал называется прерывистым (или дизъюнктивным), если между двумя или несколькими пространствами, заселёнными каким-либо видом, есть промежутки настолько значительные, что любой контакт между разделёнными ими популяциями вида исключен.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

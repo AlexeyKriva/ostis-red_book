@@ -1,0 +1,204 @@
+concept_biotic_factors <- sc_node_class;;
+concept_intraspecific_biotic_factors <- sc_node_class;;
+concept_interspecies_biotic_factors <- sc_node_class;;
+concept_group_effect <- sc_node_class;;
+concept_mass_effect <- sc_node_class;;
+
+concept_biotic_factors
+=> nrel_main_idtf: 
+	[Биотические факторы]
+	(*<- lang_ru;;*);
+	[Biotic factors]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Биотические факторы]
+	  			(*
+	    		<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Биотическими факторами называют все виды взаимодействий, которые оказывают друг на друга живые организмы в биоценозах.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Биотические факторы]
+	  			(*
+	    		<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Биотические факторы делят на внутривидовые и межвидовые. 
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+
+<= nrel_subdividing:
+{
+	concept_intraspecific_biotic_factors;
+	concept_interspecies_biotic_factors;
+};;
+
+concept_intraspecific_biotic_factors
+=> nrel_main_idtf: 
+	[Внутривидовые биотические факторы]
+	(*<- lang_ru;;*);
+	[Intraspecific biotic factors]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Внутривидовые биотические факторы]
+	  			(*
+	    		<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Внутривидовыми биотическими факторами называют взаимные влияния друг на друга организмов одного вида.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Внутривидовые биотические факторы]
+	  			(*
+	    		<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Внутривидовые биотические факторы бывают положительными иотрицательными.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Внутривидовые биотические факторы]
+	  			(*
+	    		<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Различают два вида внутривидовых факторов: эффект группы, эффект массы.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<= nrel_subdividing:
+{
+	concept_group_effect;
+	concept_mass_effect;
+};;
+	
+concept_group_effect
+=> nrel_main_idtf: 
+	[Эффект группы]
+	(*<- lang_ru;;*);
+	[Group effect]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Эффект группы]
+	  			(*
+	    		<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [ Эффект группы - положительные следствия, связанные с объединением животных в группы: ускорение роста, более успешное выживание, усиление интенсивности размножения и другие.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+	
+concept_mass_effect
+=> nrel_main_idtf: 
+	[Эффект массы]
+	(*<- lang_ru;;*);
+	[Mass effect]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Эффект массы]
+	  			(*
+	    		<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Эффектом массы называют неблагоприятные следствия, возникающие у организмов при перенаселении среды. 
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+	
+concept_interspecies_biotic_factors
+=> nrel_main_idtf: 
+	[Межвидовые биотические факторы]
+	(*<- lang_ru;;*);
+	[Interspecies biotic factors]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Межвидовые биотические факторы]
+	  			(*
+				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Межвидовые биотические факторы - это действие, оказываемое одним видом на другой, обычно осуществляется через прямой контакт между особями, которому предшествуют или сопутствуют изменения среды обитания, вызываемые жизнедеятельностью организмов. 
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

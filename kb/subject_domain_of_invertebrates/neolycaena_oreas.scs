@@ -1,0 +1,46 @@
+concept_neolycaena_oreas <- sc_node_class;;
+
+concept_neolycaena_oreas
+=> nrel_main_idtf:
+	[Голубянка Ореас]
+	(*<- lang_ru;;*);
+	[neolycaena_oreas]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Голубянка Ореас]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Одна из рода бабочек, который принадлежит к семейству голубянки. Является эндемиком Дальнего Востока, из-за чего в других местах встретить это насекомое попросту невозможно.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Голубянка Ореас]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Когда гусеница уже сформировалась и вылупилась, она приступает к поеданию листвы кормового растения, чтобы скорее окуклиться и стать полноценной бабочкой.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+

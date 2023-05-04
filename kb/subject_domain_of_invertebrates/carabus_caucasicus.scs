@@ -1,0 +1,46 @@
+concept_carabus_caucasicus <- sc_node_class;;
+
+concept_carabus_caucasicus
+=> nrel_main_idtf:
+	[Жужелица Кавказская]
+	(*<- lang_ru;;*);
+	[carabus_caucasicus]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Жужелица Кавказская]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Жужелица кавказская является довольно крупным представителем семейства жужелиц, распространенным на территории России, в частности, на севере горного Кавказа. Некоторые особи встречаются в Краснодарском крае.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Жужелица Кавказская]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Кавказская жужелица считается хищным насекомым.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+

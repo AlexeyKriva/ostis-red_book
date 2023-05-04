@@ -1,0 +1,46 @@
+
+concept_dahurinaia_shigini <- sc_node_class;;
+
+
+concept_dahurinaia_shigini
+=> nrel_main_idtf:
+	[Жемчужница Шигина]
+	(*<- lang_ru;;*);
+	[dahurinaia_shigini]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Жемчужница Шигина]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Крупный двустворчатый моллюск. Длина раковины до 60 мм. Похожа на гладкую жемчужницу, от которой отличается пропорциями раковины: очень короткая, снаружи темно-коричневая, удлиненно-овальная, мало вздутая. Макушки слабо выступающие. Раковина у макушки, как правило, сильно разъедена и периостракум полностью разрушен.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Жемчужница Шигина]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Образует скопления до 10 экз./1 м2.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+

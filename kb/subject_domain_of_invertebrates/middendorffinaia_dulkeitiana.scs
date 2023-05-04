@@ -1,0 +1,43 @@
+concept_middendorffinaia_dulkeitiana <- sc_node_class;;
+
+concept_middendorffinaia_dulkeitiana
+=> nrel_main_idtf:
+	[Миддендорффиная Дулькейт]
+	(*<- lang_ru;;*);
+	[middendorffinaia_dulkeitiana]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Миддендорффиная Дулькейт]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Раковина овально-трапецевидная, сильно выпуклая, толстостенная. Самая задняя точка раковины лежит немного выше основания брюшного края. Задний край раковины узкий, в верхней части усеченный, брюшной край в средней части может быть слегка вогнутым. Макушки умеренно возвышаются над спинным краем, сильно сдвинуты вперед.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Миддендорффиная Дулькейт]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Вид обитает на территории Уссурийского заповедника.]				
+			(*
+				<- lang_ru;;
+			*);;
+		*);;
+	*);;

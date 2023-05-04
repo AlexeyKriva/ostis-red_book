@@ -1,0 +1,46 @@
+concept_lucanus_cervus <- sc_node_class;;
+
+concept_lucanus_cervus
+=> nrel_main_idtf:
+	[Жук-олень]
+	(*<- lang_ru;;*);
+	[lucanus_cervus]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Жук-олень]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [удивительный представитель семейства рогачи, который считается самым крупным жуком на территории Европы.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Жук-олень]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Большинство жуков крайне малоподвижны, однако для быстрого перемещения в пространстве жуки-олени могут летать, преодолевая за один полет расстояние до 3 километров.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+

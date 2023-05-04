@@ -1,0 +1,66 @@
+concept_fauna <- sc_node_class;;
+
+concept_fauna
+=> nrel_main_idtf: 
+	[Фауна]
+	(*<- lang_ru;;*);
+	[fauna]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Фауна]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Флора - это животный мир.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Фауна]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Фауна исторически сложившаяся совокупность видов животных, обитающих на определённой территории.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Фауна]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Фауна любой территории складывается из разных фаунистических комплексов, которые объединяют виды, имеющие сходные ареалы.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+

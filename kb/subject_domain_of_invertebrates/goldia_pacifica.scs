@@ -1,0 +1,46 @@
+concept_goldia_pacifica <- sc_node_class;;
+
+concept_goldia_pacifica
+=> nrel_main_idtf:
+	[Зефир Тихоокеанский]
+	(*<- lang_ru;;*);
+	[goldia_pacifica]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Зефир Тихоокеанский]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Бабочка, которая принадлежит к семейству голубянок. Иное название вида – хетопрокта. Данный вид занесли в Красную книгу еще в 1984, потому что ему угрожает полное исчезновение.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Зефир Тихоокеанский]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Размах крыльев насекомого колеблется от 3,6 до 4,4 см.]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+
