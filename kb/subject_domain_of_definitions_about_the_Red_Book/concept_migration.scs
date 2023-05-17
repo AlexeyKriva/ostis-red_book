@@ -1,0 +1,46 @@
+concept_animal_migration <- sc_node_class;;
+
+concept_animal_migration
+=> nrel_main_idtf: 
+	[Миграция животных]
+	(*<- lang_ru;;*);
+	[Animal migration]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Миграция животных]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Миграция животных — это периодическое перемещение животных из одной местности в другую на большие расстояния.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Миграция животных]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Миграции могут быть сезонными, ежегодными или более длительными, в зависимости от вида животных и их потребностей.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

@@ -1,0 +1,46 @@
+concept_fish <- sc_node_class;;
+
+concept_fish
+=> nrel_main_idtf: 
+	[Рыбы]
+	(*<- lang_ru;;*);
+	[Fish]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Рыбы]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Рыбы — это животные, обитающие в водной среде.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Рыбы]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Рыбы имеют жаберные дыхательные органы и часто обладают чешуей.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

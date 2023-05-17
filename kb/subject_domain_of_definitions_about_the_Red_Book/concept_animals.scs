@@ -1,0 +1,72 @@
+concept_animals <- sc_node_class;;
+
+concept_animals
+=> nrel_main_idtf: 
+	[Животные]
+	(*<- lang_ru;;*);
+	[Animals]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Животные]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Животные — это организмы, принадлежащие к царству животных (Animalia). Они являются многоклеточными, эукариотическими и гетеротрофными организмами, то есть они состоят из множества клеток, имеют ядра и получают питательные вещества извне.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<= nrel_subdividing:
+{
+	concept_vertebrates;
+	concept_invertebrates;
+};
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Животные]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Царство животных очень разнообразно и включает огромное количество видов. 
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Животные]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Животные обитают в самых различных средах, от океанов и лесов до пустынь и горных вершин. 
+]
+				(*
+				<- lang_ru;;
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;	

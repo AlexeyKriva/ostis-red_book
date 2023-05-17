@@ -1,0 +1,46 @@
+concept_natural_selection <- sc_node_class;;
+
+concept_natural_selection
+=> nrel_main_idtf: 
+	[Естественный отбор]
+	(*<- lang_ru;;*);
+	[Natural selection]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Естественный отбор]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Естественный отбор — это процесс в эволюции, который приводит к приспособлению популяции к изменяющимся условиям окружающей среды.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Естественный отбор]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Естественный отбор основан на принципе, что особи с более выгодными наследственными свойствами имеют больше шансов на выживание и размножение, передавая свои гены следующему поколению.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

@@ -1,0 +1,46 @@
+concept_reptiles <- sc_node_class;;
+
+concept_reptiles
+=> nrel_main_idtf: 
+	[Рептилии]
+	(*<- lang_ru;;*);
+	[Reptiles]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Рептилии]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Рептилии — это группа животных, которые имеют чешуйчатую кожу и воспроизводятся яйцами.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Рептилии]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [К рептилиям относятся ящерицы, змеи, черепахи и крокодилы.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

@@ -1,9 +1,6 @@
-sc_statement <- sc_node_class;;
-sc_explanation <- sc_node_class;;
-..node <- sc_node_class;;
-concept_amphipod_pallas <- sc_node_class;;
+concept_whitehair <- sc_node_class;;
 
-concept_amphipod_pallas 
+concept_whitehair 
 => nrel_main_idtf: 
 	[коромысло беловолосое]
 	(*<- lang_ru;;*);

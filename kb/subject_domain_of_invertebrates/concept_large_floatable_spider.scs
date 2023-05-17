@@ -1,6 +1,3 @@
-sc_statement <- sc_node_class;;
-sc_explanation <- sc_node_class;;
-..node <- sc_node_class;;
 concept_large_floatable_spider <- sc_node_class;;
 
 concept_large_floatable_spider 

@@ -1,9 +1,6 @@
-sc_statement <- sc_node_class;;
-sc_explanation <- sc_node_class;;
-..node <- sc_node_class;;
-concept_amphipod_pallas <- sc_node_class;;
+concept_relic_mysid <- sc_node_class;;
 
-concept_amphipod_pallas 
+concept_relic_mysid 
 => nrel_main_idtf: 
 	[реликтовая мизида]
 	(*<- lang_ru;;*);

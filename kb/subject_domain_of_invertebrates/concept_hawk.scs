@@ -1,9 +1,6 @@
-sc_statement <- sc_node_class;;
-sc_explanation <- sc_node_class;;
-..node <- sc_node_class;;
-concept_amphipod_pallas <- sc_node_class;;
+concept_hawk <- sc_node_class;;
 
-concept_amphipod_pallas 
+concept_hawk 
 => nrel_main_idtf: 
 	[бражник прозерпина]
 	(*<- lang_ru;;*);

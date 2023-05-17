@@ -1,9 +1,6 @@
-sc_statement <- sc_node_class;;
-sc_explanation <- sc_node_class;;
-..node <- sc_node_class;;
-concept_amphipod_pallas <- sc_node_class;;
+concept_giant_scolia <- sc_node_class;;
 
-concept_amphipod_pallas 
+concept_giant_scolia 
 => nrel_main_idtf: 
 	[сколия-гигант]
 	(*<- lang_ru;;*);

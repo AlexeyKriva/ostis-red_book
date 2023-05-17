@@ -1,0 +1,46 @@
+concept_predproductive_individuals <- sc_node_class;;
+
+concept_predproductive_individuals
+=> nrel_main_idtf: 
+	[Предпродуктивные особи]
+	(*<- lang_ru;;*);
+	[Predproductive individuals]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Предпродуктивные особи]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Предпродуктивные особи — это особи в возрасте, когда они еще не достигли половой зрелости и не способны размножаться. Этот период может быть различным для разных видов и зависит от их биологической характеристики.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Предпродуктивные особи]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Предрепродуктивные особи играют важную роль в биологическом цикле и поддержании популяций. Они являются промежуточной стадией в развитии особей и являются основой для будущего размножения и продолжения рода.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

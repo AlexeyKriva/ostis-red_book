@@ -1,0 +1,2301 @@
+
+concept_river_lampey <- sc_node_class;;
+concept_sterlet <- sc_node_class;;
+concept_atlantic_salmon <- sc_node_class;;
+concept_european_grayling <- sc_node_class;;
+concept_trout <- sc_node_class;;
+concept_brook_trout <- sc_node_class;;
+concept_european_smelt <- sc_node_class;;
+concept_lake_minnow <- sc_node_class;;
+concept_barbel <- sc_node_class;;
+concept_rybets <- sc_node_class;;
+concept_rybets <- sc_node_class;;
+concept_jungle_toad <- sc_node_class;;
+concept_swamp_turtle <- sc_node_class;;
+concept_copperhead <- sc_node_class;;
+concept_aythya_nyroca <- sc_node_class;;
+concept_big_merganser <- sc_node_class;;
+concept_lesser <- sc_node_class;;
+concept_long_nosed_merganser <- sc_node_class;;
+concept_smew <- sc_node_class;;
+concept_pintail <- sc_node_class;;
+concept_ptarmigan <- sc_node_class;;
+concept_black_throated_loon <- sc_node_class;;
+concept_grey_cheeked_grebe <- sc_node_class;;
+concept_bittern <- sc_node_class;;
+concept_kwakwa <- sc_node_class;;
+concept_little_bittern <- sc_node_class;;
+concept_black_stork <- sc_node_class;;
+concept_golden_eagle <- sc_node_class;;
+concept_greater_spotted_eagle <- sc_node_class;;
+concept_snake_eater <- sc_node_class;;
+concept_red_kite <- sc_node_class;;
+concept_lesser_spotted_eagle <- sc_node_class;;
+concept_dwarf_eagle <- sc_node_class;;
+concept_white_tailed_eagle <- sc_node_class;;
+concept_field_harrier <- sc_node_class;;
+concept_osprey <- sc_node_class;;
+concept_black_kite <- sc_node_class;;
+concept_derbnik <- sc_node_class;;
+concept_falcon <- sc_node_class;;
+concept_common_kestrel <- sc_node_class;;
+concept_peregrine_falcon <- sc_node_class;;
+concept_cheglok <- sc_node_class;;
+concept_landrail <- sc_node_class;;
+concept_small_chauffeur <- sc_node_class;;
+concept_gray_crane <- sc_node_class;;
+concept_avdotka <- sc_node_class;;
+concept_godwit <- sc_node_class;;
+concept_curlew <- sc_node_class;;
+concept_big_snail <- sc_node_class;;
+concept_necktie <- sc_node_class;;
+
+
+concept_river_lampey
+=> nrel_main_idtf: 
+	[речная минога]
+	(*<- lang_ru;;*);
+	[river_lampey]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Речная минога]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Речная минога - это речное рыбообразное животное с удлинённым голым телом, обильно покрытым слизью.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Речная минога]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Обладает многочисленными роговыми зубами в круглой ротовой воронке.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_sterlet
+=> nrel_main_idtf: 
+	[стерлядь]
+	(*<- lang_ru;;*);
+	[sterlet]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Стерлядь]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Стерлядь — важная промысловая рыба, которая относится к престижному семейству осетровых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Стерлядь]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [У стерляди узкая голова, а также длинный и острый нос.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_atlantic_salmon
+=> nrel_main_idtf: 
+	[атлантический лосось]
+	(*<- lang_ru;;*);
+	[atlantic_salmon]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Атлантический лосось]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Атлантический лосось - это средней или крупной величины лососёвая рыба, естественный ареал которой расположен на севере Атлантического океана.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Атлантический лосось]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Вид представлен в основном проходными стадами, но есть и жилые (озёрные) популяции.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_european_grayling
+=> nrel_main_idtf: 
+	[европейский хариус]
+	(*<- lang_ru;;*);
+	[european_grayling]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Европейский хариус]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Европейский хариус - вид пресноводных рыб подсемейства хариусовых семейства лососёвых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Европейский хариус]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Окраска яркая (особенно в период размножения): спина серо-зеленая с мелкими темными пятнами; бока светло-серые с бурыми продольными полосами.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+    
+
+concept_trout
+=> nrel_main_idtf: 
+	[кумжа]
+	(*<- lang_ru;;*);
+	[trout]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Кумжа]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Кумжа - проходная, озёрная или ручьевая рыба из семейства лососёвых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Кумжа]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Очень изменчивый и приспособленный к жизни в разнообразных водоёмах вид среднего или крупного размера.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_brook_trout
+=> nrel_main_idtf: 
+	[Ручьевая форель]
+	(*<- lang_ru;;*);
+	[Brook trout]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Ручьевая форель]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Ручьевая форель - проходная, озёрная или ручьевая рыба из семейства лососёвых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Ручьевая форель]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [В водоемах Беларуси ручьевая форель является одним из редких видов рыб и обитает только в малых реках и их притоках.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_european_smelt
+=> nrel_main_idtf: 
+	[Европейская корюшка]
+	(*<- lang_ru;;*);
+	[European smelt]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Европейская корюшка]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Европейская корюшка - вид некрупных лучепёрых рыб семейства корюшковых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Европейская корюшка]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Наиболее интенсивный откорм происходит летом и осенью, в непосредственной близости от берегов, где и находится большую часть года.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_lake_minnow
+=> nrel_main_idtf: 
+	[Озерный гольян]
+	(*<- lang_ru;;*);
+	[Lake minnow]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Озерный гольян]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Озерный гольян - вид лучепёрых рыб семейства карповых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Озерный гольян]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Пресноводная стайная придонная рыба, встречающаяся преимущественно в небольших мелководных замкнутых, стоящих или частично проточных водоемах с песчано-илистым или илистым грунтом, с развитой водной растительностью.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_barbel
+=> nrel_main_idtf: 
+	[Обыкновенный усач]
+	(*<- lang_ru;;*);
+	[Barbel]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Обыкновенный усач]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Обыкновенный усач - вид лучепёрых рыб из семейства карповых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Обыкновенный усач]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Обитает в водах Европы, за исключением Испании и Италии на юге, Англии, Дании и Скандинавии на севере.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_rybets
+=> nrel_main_idtf: 
+	[Рыбец]
+	(*<- lang_ru;;*);
+	[Rybets]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Рыбец]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Рыбец - вид лучепёрых рыб из семейства карповых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Рыбец]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Обыкновенный рыбец образует проходные, полупроходные и пресноводные формы.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_crested_newt
+=> nrel_main_idtf: 
+	[Гребенчатый тритон]
+	(*<- lang_ru;;*);
+	[Crested newt]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Гребенчатый тритон]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Гребенчатый тритон - вид тритонов из рода Triturus отряда хвостатых земноводных.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Гребенчатый тритон]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Своё название данный вид тритонов получил благодаря высокому гребню вдоль спины и хвоста, который появляется у самцов в брачный период.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_jungle_toad
+=> nrel_main_idtf: 
+	[Камышовая жаба]
+	(*<- lang_ru;;*);
+	[Jungle toad]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Камышовая жаба]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Камышовая жаба - вид бесхвостых земноводных из семейства жаб.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Камышовая жаба]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Встречается на опушках лесов, лугах, в местах лесозаготовок под сложенными в штабель стволами деревьев, на болотах.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_swamp_turtle
+=> nrel_main_idtf: 
+	[Болотная черепаха]
+	(*<- lang_ru;;*);
+	[Swamp turtle]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Болотная черепаха]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Болотная черепаха - вид пресноводных черепах из рода болотных черепах.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Болотная черепаха]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Встречается в различных пресных водоёмах: болотах, прудах, озёрах, плавнях, старицах, медленно текущих реках, каналах.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_copperhead
+=> nrel_main_idtf: 
+	[Медянка]
+	(*<- lang_ru;;*);
+	[Copperhead]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Медянка]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Медянка - вид змей рода медянок семейства ужеобразных.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Медянка]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Медянки предпочитают облесенные поляны, солнечные опушки, сухие луга и вырубки в различных типах леса, избегая сырых мест, хотя хорошо плавают.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_aythya_nyroca
+=> nrel_main_idtf: 
+	[Белоглазая чернеть]
+	(*<- lang_ru;;*);
+	[Aythya nyroca]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Белоглазая чернеть]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Белоглазая чернеть - птица семейства утиных.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Белоглазая чернеть]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Белоглазые нырки населяют тростниковые озёра с открытыми пространствами воды.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_big_merganser
+=> nrel_main_idtf: 
+	[Большой крохаль]
+	(*<- lang_ru;;*);
+	[Big merganser]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Большой крохаль]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Большой крохаль - крупная утка с узким удлинённым клювом, обычно ассоциируемая с тихими реками и озёрами северной тайги.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Большой крохаль]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Крупная утка размером с небольшого гуся, с длинной шеей, и длинным, узким загнутым на конце клювом.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_lesser
+=> nrel_main_idtf: 
+	[Гусь-пискулька]
+	(*<- lang_ru;;*);
+	[Lesser]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Гусь-пискулька]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Гусь-пискулька - птица семейства утиных, мелкий гусь.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Гусь-пискулька]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Пискулька встречается в долинах крупных рек, возле озёр и небольших ручьев, предпочитает полугорный ландшафт.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_long_nosed_merganser
+=> nrel_main_idtf: 
+	[Длинноносый крохаль]
+	(*<- lang_ru;;*);
+	[Long-nosed merganser]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Длинноносый крохаль]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Длинноносый крохаль - птица семейства утиных.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Длинноносый крохаль]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Помимо рыбы, которая составляет основной рацион этой птицы, питается ракообразными, водными насекомыми и червями.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_smew
+=> nrel_main_idtf: 
+	[Луток]
+	(*<- lang_ru;;*);
+	[Smew]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Луток]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Луток - водоплавающая птица семейства утиных с бело-пёстрым оперением.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Луток]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Основу питания составляют придонные водные беспозвоночные, преимущественно насекомые и их личинки.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_pintail
+=> nrel_main_idtf: 
+	[Шилохвость]
+	(*<- lang_ru;;*);
+	[Pintail]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Шилохвость]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Шилохвость - многочисленная и одна из наиболее распространённых уток в мире.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Шилохвость]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [В гнездовой период это разнообразные открытые водоёмы внутреннего типа с изобилием невысокой водной и прибрежной растительности.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_ptarmigan
+=> nrel_main_idtf: 
+	[Белая куропатка]
+	(*<- lang_ru;;*);
+	[Ptarmigan]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Белая куропатка]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Белая куропатка - птица из трибы тетеревиных семейства фазановых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Белая куропатка]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Белая куропатка повсеместно привязана к кустарниковой растительности, дающей ей основной корм.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_black_throated_loon
+=> nrel_main_idtf: 
+	[Чернозобая гагара]
+	(*<- lang_ru;;*);
+	[Black-throated loon]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Чернозобая гагара]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Чернозобая гагара - птица из рода гагар.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Чернозобая гагара]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Птицы летают обычно поодиночке — даже в брачной паре чернозобые гагары никогда не летят близко друг к другу, а всегда на некотором удалении и часто на разной высоте.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_grey_cheeked_grebe
+=> nrel_main_idtf: 
+	[Серощекая поганка]
+	(*<- lang_ru;;*);
+	[Grey-cheeked grebe]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Серощекая поганка]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Серощекая поганка - водоплавающая птица из семейства поганковых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Серощекая поганка]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Серощёкую поганку по размеру можно сравнить со средней величины уткой, такой как свиязь или шилохвость.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_bittern
+=> nrel_main_idtf: 
+	[Большая выпь]
+	(*<- lang_ru;;*);
+	[Bittern]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Большая выпь]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Большая выпь - птица семейства цаплевых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Большая выпь]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Выпь со спины имеет чёрные с желтоватыми каёмками перья, такого же цвета голова.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_kwakwa
+=> nrel_main_idtf: 
+	[Кваква]
+	(*<- lang_ru;;*);
+	[Kwakwa]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Кваква]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Кваква - птица семейства цаплевых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Кваква]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Кваква имеет короткую по сравнению с другими цаплями шею и короткий, но крепкий и мощный клюв.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_little_bittern
+=> nrel_main_idtf: 
+	[Малая выпь]
+	(*<- lang_ru;;*);
+	[Little Bittern]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Малая выпь]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Малая выпь - птица семейства цаплевых, самая мелкая цапля.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Малая выпь]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Малая выпь гнездится на берегах крупных и мелких водоёмов со стоячей водой, заросших растительностью.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_black_stork
+=> nrel_main_idtf: 
+	[Черный аист]
+	(*<- lang_ru;;*);
+	[Black stork]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Черный аист]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Черный аист - птица из семейства аистовых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Черный аист]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Питается в основном рыбой, мелкими водными позвоночными и беспозвоночными животными, кормится на мелководьях, заливных лугах и поблизости от водоёмов.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_golden_eagle
+=> nrel_main_idtf: 
+	[Беркут]
+	(*<- lang_ru;;*);
+	[Golden eagle]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Беркут]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Беркут - одна из наиболее известных хищных птиц семейства ястребиных.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Беркут]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [В поисках пищи беркут чаще всего подолгу парит высоко в восходящих потоках тёплого воздуха, при этом крылья слегка приподняты над корпусом.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_greater_spotted_eagle
+=> nrel_main_idtf: 
+	[Большой подорлик]
+	(*<- lang_ru;;*);
+	[Greater Spotted Eagle]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Большой подорлик]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Большой подорлик - вид птиц семейства ястребиных.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Большой подорлик]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Большой подорлик обитает в смешанных лесах, а также возле пойменных лугов, болот, рек и озёр.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_snake_eater
+=> nrel_main_idtf: 
+	[Змееяд]
+	(*<- lang_ru;;*);
+	[Snake-eater]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Змееяд]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Змееяд - вид хищных птиц семейства ястребиных, подсемейства змееядов.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Змееяд]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Населяет зону смешанных лесов и лесостепи.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_red_kite
+=> nrel_main_idtf: 
+	[Красный коршун]
+	(*<- lang_ru;;*);
+	[Red kite]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Красный коршун]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Красный коршун - среднего размера хищная птица из семейства ястребиных.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Красный коршун]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Во время охоты парит на небольшой высоте, высматривая мелкую дичь.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_lesser_spotted_eagle
+=> nrel_main_idtf: 
+	[Малый подорлик]
+	(*<- lang_ru;;*);
+	[Lesser spotted eagle]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Малый подорлик]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Малый подорлик - вид дневных хищных птиц из семейства ястребиных.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Малый подорлик]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Один из самых маленьких представителей подсемейства орлиных.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_dwarf_eagle
+=> nrel_main_idtf: 
+	[Орел-карлик]
+	(*<- lang_ru;;*);
+	[Dwarf eagle]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Орел-карлик]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Орел-карлик - вид хищных птиц семейства ястребиных.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Орел-карлик]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Сильные ноги с длинными когтистыми пальцами, мощный орлиный клюв и узкие крылья позволяют орлу-карлику охотиться на достаточно крупную, размером до кролика, и быстро передвигающуюся дичь.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_white_tailed_eagle
+=> nrel_main_idtf: 
+	[Орлан-белохвост]
+	(*<- lang_ru;;*);
+	[White-tailed eagle]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Орлан-белохвост]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Орлан-белохвост - хищная птица из семейства ястребиных.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Орлан-белохвост]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Питаются рыбой, или другими животными, связанными с водой (птицами, млекопитающими). Иногда может питаться падалью.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_field_harrier
+=> nrel_main_idtf: 
+	[Полевой лунь]
+	(*<- lang_ru;;*);
+	[Field harrier]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Полевой лунь]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Полевой лунь - среднего размера хищная птица семейства ястребиных.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Полевой лунь]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Обитает в зоне лесов встречается на опушках, вырубках, гарях, моховых болотах, по окраинам полей, в лугах речных долин.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_osprey
+=> nrel_main_idtf: 
+	[Скопа]
+	(*<- lang_ru;;*);
+	[Osprey]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Скопа]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Скопа - хищная птица, единственный представитель монотипического семейства скопиных.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Скопа]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Скопы распространены во всём мире, размножаясь или зимуя на всех континентах, кроме Антарктиды.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_black_kite
+=> nrel_main_idtf: 
+	[Черный коршун]
+	(*<- lang_ru;;*);
+	[Black kite]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Черный коршун]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Черный коршун - вид хищных птиц семейства ястребиных.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Черный коршун]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Места обитания — различные типы леса, обычно вблизи водоёмов.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_derbnik
+=> nrel_main_idtf: 
+	[Дербник]
+	(*<- lang_ru;;*);
+	[Derbnik]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Дербник]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Дербник - хищная птица, мелкий сокол.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Дербник]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Обитает на различных открытых ландшафтах — в кустарниковой тундре, по окраинам торфяных болот, вдоль речных долин, в редколесье.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_falcon
+=> nrel_main_idtf: 
+	[Кобчик]
+	(*<- lang_ru;;*);
+	[Falcon]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Кобчик]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Кобчик - вид хищных птиц рода соколов.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Кобчик]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Мелкий сокол, пропорциями и поведением сходный с пустельгой, но менее ширококрылый.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_common_kestrel
+=> nrel_main_idtf: 
+	[Обыкновенная пустельга]
+	(*<- lang_ru;;*);
+	[Common kestrel]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Обыкновенная пустельга]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Обыкновенная пустельга - птица из отряда соколообразных семейства соколиных.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Обыкновенная пустельга]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [В целом пустельги избегают как густых замкнутых лесных пространств, так и полностью безлесных степей.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_peregrine_falcon
+=> nrel_main_idtf: 
+	[Сапсан]
+	(*<- lang_ru;;*);
+	[Peregrine falcon]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Сапсан]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Сапсан - хищная птица из семейства соколиных.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Сапсан]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Сапсан обычно выбирает малодоступные для человека места с широким горизонтом; наибольшее предпочтение отдаётся скалистым берегам различных водоёмов — как внутренних, так и внешних.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_cheglok
+=> nrel_main_idtf: 
+	[Чеглок]
+	(*<- lang_ru;;*);
+	[Cheglok]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Чеглок]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Чеглок - небольшая хищная птица из семейства соколиных.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Чеглок]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Предпочитает мозаичные ландшафты, где участки леса чередуются с открытыми пространствами.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_landrail
+=> nrel_main_idtf: 
+	[Коростель]
+	(*<- lang_ru;;*);
+	[Landrail]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Коростель]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Коростель - небольшая птица семейства пастушковых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Коростель]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [В гнездовой период населяет разнообразные полуоткрытые ландшафты, в первую очередь сырые высокотравные луга с зарослями осоки, ириса и канареечника, и отдельными посадками тальника, ракитника и других кустарников.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_small_chauffeur
+=> nrel_main_idtf: 
+	[Малый погоныш]
+	(*<- lang_ru;;*);
+	[Small chauffeur]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Малый погоныш]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Малый погоныш - вид птиц семейства пастушковых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Малый погоныш]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Малый погоныш питается беспозвоночными животными и их личинками, нежными побегами растений и семенами водных растений.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_gray_crane
+=> nrel_main_idtf: 
+	[Серый журавль]
+	(*<- lang_ru;;*);
+	[Gray crane]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Серый журавль]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Серый журавль - крупная птица, обитающая в Европе и Азии; второй по численности вид журавлей.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Серый журавль]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Серые журавли всеядны: питаются различными частями растений, беспозвоночными животными, а также небольшими позвоночными: лягушками, змеями, рыбой и грызунами.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_avdotka
+=> nrel_main_idtf: 
+	[Авдотка]
+	(*<- lang_ru;;*);
+	[Avdotka]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Авдотка]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Авдотка - птица из семейства авдотковых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Авдотка]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Это плотоядная птица, основу её рациона составляют — насекомые, улитки, лягушки, ящерицы, мыши, и, возможно, яйца других пернатых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_godwit
+=> nrel_main_idtf: 
+	[Большой веретенник]
+	(*<- lang_ru;;*);
+	[Godwit]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Большой веретенник]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Большой веретенник - крупный кулик из семейства бекасовых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Большой веретенник]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Гнездится в увлажнённых и заболоченных биотопах с высоким травостоем и мягким грунтом.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_curlew
+=> nrel_main_idtf: 
+	[Большой кроншнеп]
+	(*<- lang_ru;;*);
+	[Curlew]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Большой кроншнеп]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Большой кроншнеп - вид птиц из семейства бекасовых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Большой кроншнеп]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Большие кроншнепы гнездятся в болотистых и прочих влажных местностях, таких как марши.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_big_snail
+=> nrel_main_idtf: 
+	[Большой улит]
+	(*<- lang_ru;;*);
+	[Big snail]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Большой улит]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Большой улит - вид птиц из семейства бекасовых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Большой улит]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Большой улит обитает главным образом у мелких водоёмов, например на болотах.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
+
+
+concept_necktie
+=> nrel_main_idtf: 
+	[Галстучник]
+	(*<- lang_ru;;*);
+	[Necktie]
+	(*<- lang_en;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Галстучник]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Галстучник - птица рода зуйки из семейства ржанковых.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Галстучник]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Небольшая птица крупнее воробья, обитающая на песчаных или галечниковых участках на берегах рек, озёр и морей.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

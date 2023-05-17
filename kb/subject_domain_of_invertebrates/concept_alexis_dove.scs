@@ -1,9 +1,6 @@
-sc_statement <- sc_node_class;;
-sc_explanation <- sc_node_class;;
-..node <- sc_node_class;;
-concept_amphipod_pallas <- sc_node_class;;
+concept_alexis_dove <- sc_node_class;;
 
-concept_amphipod_pallas 
+concept_alexis_dove
 => nrel_main_idtf: 
 	[голубянка Алексис]
 	(*<- lang_ru;;*);

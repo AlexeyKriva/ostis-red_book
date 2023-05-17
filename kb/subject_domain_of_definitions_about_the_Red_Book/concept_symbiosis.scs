@@ -1,0 +1,65 @@
+concept_symbiosis <- sc_node_class;;
+
+concept_symbiosis
+=> nrel_main_idtf: 
+	[Симбиоз]
+	(*<- lang_ru;;*);
+	[Symbiosis]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Симбиоз]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Симбиоз — это взаимодействие двух или более разных организмов разных видов, которое имеет взаимную выгоду для каждого из участников.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Симбиоз]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [В симбиотических отношениях организмы могут взаимодействовать на разных уровнях, включая физический контакт, обмен пищей, защиту и обмен генетической информацией.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Симбиоз]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Симбиоз является широко распространенным и важным аспектом взаимодействия в природе. Он может быть временным или постоянным, взаимовыгодным или односторонним.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;	

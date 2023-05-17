@@ -1,6 +1,3 @@
-sc_statement <- sc_node_class;;
-sc_explanation <- sc_node_class;;
-..node <- sc_node_class;;
 concept_medical_leech <- sc_node_class;;
 
 concept_medical_leech 

@@ -1,0 +1,46 @@
+concept_postreproductive_individuals <- sc_node_class;;
+
+concept_postreproductive_individuals
+=> nrel_main_idtf: 
+	[Пострепродуктивные особи]
+	(*<- lang_ru;;*);
+	[Postreproductive individuals]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Пострепродуктивные особи]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Пострепродуктивные особи — это особи, которые завершили свой репродуктивный период и больше не способны размножаться. Этот период наступает после достижения определенного возраста или после выполнения репродуктивной функции.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Пострепродуктивные особи]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [У животных пострепродуктивная стадия наступает после того, как особи больше не могут размножаться. Они могут сохранять заботу о своем потомстве или внуках, но уже не могут производить собственное потомство.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

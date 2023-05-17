@@ -1,0 +1,55 @@
+concept_invertebrates <- sc_node_class;;
+
+concept_invertebrates
+=> nrel_main_idtf: 
+	[Беспозвоночные животные]
+	(*<- lang_ru;;*);
+	[Invertebrates]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Беспозвоночные животные]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Беспозвоночные животные — это группа животных, которые не имеют внутренней опорной структуры в виде позвоночника или хребта. Вместо этого они обладают другими формами поддержки и защиты, такими как панцири, скелеты из хитина, гидростатический скелет или внешние скелеты.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<= nrel_including:
+{
+	concept_insects;
+	concept_leeches;
+	concept_crustaceans;
+	concept_arachnids;
+	concept_shellfish;	
+};	
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Беспозвоночные животные]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Группа беспозвоночных включает в себя огромное количество видов, и они составляют основную массу животных на Земле.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;

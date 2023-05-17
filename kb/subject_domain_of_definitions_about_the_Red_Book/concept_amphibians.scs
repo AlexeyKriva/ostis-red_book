@@ -1,0 +1,46 @@
+concept_amphibians <- sc_node_class;;
+
+concept_amphibians
+=> nrel_main_idtf: 
+	[Амфибии]
+	(*<- lang_ru;;*);
+	[Amphibians]
+	(*<- lang_en;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [опр. Амфибии]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Амфибии — это животные, способные жить как в водной среде, так и на суше.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [утв. Амфибии]
+	  			(*
+	    				<- lang_ru;;
+	  			*);;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: [Амфибии проходят через метаморфозу от яйца к взрослому виду.
+]
+				(*
+				<- lang_ru;;
+				*);;
+		*);;
+	*);;
